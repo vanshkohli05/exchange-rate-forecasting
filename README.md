@@ -38,7 +38,7 @@ The project uses monthly data derived from daily exchange rates and macroeconomi
 - Consumer Price Index
 - Trade Balance
 
-The original datasets are provided in the `data/` directory.
+The original datasets used in the analysis are provided in the `data/` directory.
 
 ## Methodology
 
@@ -82,11 +82,11 @@ Covers:
 - Data loading and cleaning
 - Monthly aggregation
 - Dataset merging
-- Exploratory analysis
+- Exploratory data analysis
 - Correlation analysis
 - Stationarity testing
 - Differencing
-- ACF/PACF analysis
+- ACF and PACF analysis
 - Log-return analysis
 
 ### `02_time_series_models.ipynb`
@@ -126,7 +126,7 @@ For the EUR/USD forecasting task, the implemented models produced the following 
 | Random Forest | 0.0612 |
 | XGBoost | 0.032181 |
 
-The project also evaluates forecasting performance for USD/JPY, USD/INR, GBP/USD, and AUD/USD using XGBoost.
+The project also evaluates XGBoost forecasting performance across USD/JPY, USD/INR, GBP/USD, and AUD/USD.
 
 The notebooks contain the detailed evaluation metrics, statistical tests, visualisations, and model outputs.
 
@@ -136,7 +136,6 @@ The notebooks contain the detailed evaluation metrics, statistical tests, visual
 exchange-rate-forecasting/
 │
 ├── README.md
-├── .gitignore
 │
 ├── notebooks/
 │   ├── 01_data_preparation_and_eda.ipynb
